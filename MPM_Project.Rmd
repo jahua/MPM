@@ -1,0 +1,29 @@
+---
+title: "MPM_Project AmesHouseing"
+author: ""
+date: "11/5/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+This dataset is found on   https://vincentarelbundock.github.io/Rdatasets/articles/data.html
+There is document about this dataset on https://vincentarelbundock.github.io/Rdatasets/doc/modeldata/ames.html
+
+```{r}
+# Install packages --------------------------------------------------------
+
+if (!require("tidymodels")) install.packages("tidymodels", dependencies=TRUE)
+
+library(tidymodels)
+
+
+data(ames)
+str(ames)
+
+```
+
+
+
+
+
